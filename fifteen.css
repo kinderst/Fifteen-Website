@@ -1,0 +1,33 @@
+/* Scott Kinder, Section AG, Manvir Singh, 5/24/14
+	This page defines the styles for the fifteen board game page.
+*/
+
+body {
+	font-size: 14pt;
+	text-align: center;
+	font-family: cursive;
+
+}
+
+#puzzlearea {
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	position: relative;
+}
+
+.box, .neighbor {
+	font-size: 40pt;
+	width: 90px;
+	height: 90px;
+	border: 5px solid black;
+	position: absolute;
+	float: left;
+	background-image: url('background.jpg');
+}
+
+.neighbor:hover {
+	border: 5px solid red;
+	color: red;
+	cursor: pointer;
+}
